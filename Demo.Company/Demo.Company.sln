@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Company.Web.Store", "Demo.Company.Web.Store\Demo.Company.Web.Store.csproj", "{29B3DD09-31A4-4D2B-9B26-B204105875DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Company.Web.Store.Tests", "Demo.Company.Web.Store.Tests\Demo.Company.Web.Store.Tests.csproj", "{00633E6C-FDB1-4429-9BE7-DA02C5741125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Company.Domain", "Demo.Company.Domain\Demo.Company.Domain.csproj", "{EDEF0B3D-060B-4569-9287-EDA61ADA5BAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "____Domain", "____Domain", "{0EA9189D-F8F0-479F-89FA-FFE848E1CCCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "___Data", "___Data", "{E94E012A-D1D4-4028-A66E-6FBB032A7548}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Repository", "__Repository", "{54F6B3A0-8D11-4145-B93D-CE0A30DC951E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Services", "_Services", "{0B9D1294-DF6E-4283-83EB-3DCF45B93D0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{FD41C586-F646-42FC-8AF7-1ABC2403F930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Company.Data", "Demo.Company.Data\Demo.Company.Data.csproj", "{882BF93F-314E-4ADA-9415-B87B1225789D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Company.Web.Admin", "Demo.Company.Web.Admin\Demo.Company.Web.Admin.csproj", "{098E1425-E89B-4553-9804-358E647B988B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29B3DD09-31A4-4D2B-9B26-B204105875DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B3DD09-31A4-4D2B-9B26-B204105875DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B3DD09-31A4-4D2B-9B26-B204105875DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B3DD09-31A4-4D2B-9B26-B204105875DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00633E6C-FDB1-4429-9BE7-DA02C5741125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00633E6C-FDB1-4429-9BE7-DA02C5741125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00633E6C-FDB1-4429-9BE7-DA02C5741125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00633E6C-FDB1-4429-9BE7-DA02C5741125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEF0B3D-060B-4569-9287-EDA61ADA5BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEF0B3D-060B-4569-9287-EDA61ADA5BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEF0B3D-060B-4569-9287-EDA61ADA5BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEF0B3D-060B-4569-9287-EDA61ADA5BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882BF93F-314E-4ADA-9415-B87B1225789D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882BF93F-314E-4ADA-9415-B87B1225789D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882BF93F-314E-4ADA-9415-B87B1225789D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882BF93F-314E-4ADA-9415-B87B1225789D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098E1425-E89B-4553-9804-358E647B988B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098E1425-E89B-4553-9804-358E647B988B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098E1425-E89B-4553-9804-358E647B988B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098E1425-E89B-4553-9804-358E647B988B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDEF0B3D-060B-4569-9287-EDA61ADA5BAF} = {0EA9189D-F8F0-479F-89FA-FFE848E1CCCA}
+		{882BF93F-314E-4ADA-9415-B87B1225789D} = {E94E012A-D1D4-4028-A66E-6FBB032A7548}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {272CC279-20FD-46CC-A043-1A3697784292}
+	EndGlobalSection
+EndGlobal
